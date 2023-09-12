@@ -20,7 +20,7 @@ const productData = [];
 // connect to mongoose
 
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb+srv://oguzarslandas:Ma+380858@oguzarslandas.tzv7tzz.mongodb.net/flutter", (error) => {
+mongoose.connect("mongodb+srv://oguzarslandas:123456@oguzarslandas.tzv7tzz.mongodb.net/flutter", (error) => {
 
     if (!error) {
         console.log("Connect to mongodb");
